@@ -6,7 +6,7 @@
 /*   By: vduryee <vduryee@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 10:25:50 by vduryee           #+#    #+#             */
-/*   Updated: 2026/11/10 12:16:49 by vduryee          ###   ########.fr       */
+/*   Updated: 2026/11/10 16:22:42 by vduryee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ char	*ft_strchr(const char *s, int c)
 	}
 	if (c == '\0')
 		return ((char *)&s[i]);
-	return (NULL);
+	return (-1);
 }
 
 char	*ft_strjoin(char const *s1, char const *s2)
